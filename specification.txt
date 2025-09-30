@@ -1,0 +1,26 @@
+Coffee Machine Kata
+
+The coffee machine serves different drinks. Prices depend on the drink, the size, extras like milk and
+sugar, and sometimes even the time of the day or the loyalty of the customer.
+
+Base prices: Coffee costs 2 €, Tea 1.5 €, Chocolate 2.5 €, Cappuccino 3 €, and Latte 3.5 €. The price
+changes depending on the size: medium drinks are 50 cents more, large ones are 1 € more. Milk adds
+another 20 cents. Sugar is free up to 2 cubes, but if you add more, it gets more expensive: every extra
+cube adds 10 cents. The machine should never allow more than 5 sugars in a drink.
+
+There are a few special rules. If you try to order with 6 sugars or more, the machine refuses and shows
+an error about too much sugar. The price of a drink must always be positive, if for some reason it would
+be zero or less, that’s also an error.
+
+Payment: if you insert less money than the required cost, you don’t get a drink. If you pay the exact
+price, the drink is served normally. If you put in more, you get the drink plus change. The change should
+always be shown with 2 decimal places.
+
+There is also a loyalty card. Every fifth drink is free if you have the card. But large drinks are
+excluded, those always have to be paid for.
+
+Finally, between 15:00 and 17:00 the machine has “happy hours”: all drinks are 20% cheaper.
+
+---
+
+It is your job to make sure the coffee machine behaves correctly according to these rules.
