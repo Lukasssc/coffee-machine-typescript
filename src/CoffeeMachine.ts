@@ -29,6 +29,7 @@ export class CoffeeMachine {
     // Happy hours
     if (currentHour >= 15 && currentHour < 17) {
       cost = cost * 0.8;
+      cost = Number(cost.toFixed(2))
     
     }
 
